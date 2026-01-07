@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="portweb.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+    <script src="https://kit.fontawesome.com/79792bef6b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="scrl-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div class="social-sidebar">
+        <a href="https://linkedin.com/in/sheikh-rabab-40bb502b5/" target="_blank" title="LinkedIn">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z'/%3E%3C/svg%3E" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/sheikh-rabab" target="_blank" title="GitHub">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/svg%3E" alt="GitHub">
+        </a>
+        <a href="mailto:rababsheikh34@gmail.com" title="Email">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z'/%3E%3C/svg%3E" alt="Email">
+        </a>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#expertise" class="menu-btn">Expertise</a></li>
+                <li><a href="#skill" class="menu-btn">Skills</a></li>
+                <li><a href="#myworks" class="menu-btn">My Works</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        
+    </nav>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Hello My Name Is</div>
+                <div class="text2">Sheikh Rabab</div>
+                <div class="text3">And I am a <span class="typing"></span></div>
+                <a href="#myworks">View My Works</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <!-- <div class="left-column">
+                <img src="img-files/catsuit4.png" alt="">
+                </div> -->
+                <div class="right-column">
+                    <div class="text">I'm Rabab And I am a <span class="typing2"></span></div>
+                    <p>
+                        I like to build and maintain robust web applications and softwares. I like dealing with complex database systems and design heavy applications.
+                    </p>
+                    <div class="qualification">
+                        <img src="img-files/14.North-South-University-NSU.psd.png" alt="">
+                        <p class="degree">BSc in Electrical & Computer Engineering</p>                       
+                    </div>
+                    <p class="uni">North South University</p>
+                    <p class="uni">Jan 2024 - present</p>
+                    <p class="uni"><i class="fa-solid fa-location-dot"></i>Bashundhara R/A, Dhaka, Bangladesh</p>
+                </div>
+                <a href="#">View My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="expertise">
+        <div class="max-width">
+            <h3 class="title">My Areas Of Expertise</h3>
+            <div class="serv-cont">
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/GIT Logo.png" alt="Git Logo">
+                        <div class="text">Git/Github</div>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/css3 Logo.png" alt="CSS Logo">
+                        <div class="text">CSS</div>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/Tailwind_CSS_Logo.svg.png" alt="Tailwind">
+                        <div class="text">Tailwind CSS</div>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/JS Logo.png" alt="JS">
+                        <div class="text">JavaScript</div>                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/TS Logo.png" alt="TS">
+                        <div class="text">TypeScript</div>                      
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/nodejs logo.png" alt="node">
+                        <div class="text">NodeJs</div>                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img-files/Express.png" alt="Exp">
+                        <div class="text">ExpressJs</div>                      
+                    </div>
+
+                </div>
+                <div class="card">
+
+                    <div class="box">
+                        <img src="img-files/C_Programming_Language.svg.png" alt="C">
+                        <div class="text">C</div>                      
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="box">
+                        <img src="img-files/mysql logo.png" alt="mysql">
+                        <div class="text">MySQL</div>                      
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="box">
+                        <img src="img-files/Postgresql_elephant.svg.png" alt="postgre">
+                        <div class="text">PostgreSQL</div>                      
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<section class="skill" id="skill">
+    <div class="max-width">
+        <h4 class="title">My Skills</h4>
+        <div class="skill-cont">
+            <div class="skill-item">
+                <div class="bullet"></div>
+                <div class="skill-name">Frontend Development</div>
+            </div>
+            <div class="skill-item">
+                <div class="bullet"></div>
+                <div class="skill-name">Backend Development</div>
+            </div>
+            <div class="skill-item">
+                <div class="bullet"></div>
+                <div class="skill-name">Database Management</div>
+            </div>
+            <div class="skill-item">
+                <div class="bullet"></div>
+                <div class="skill-name">API Integration</div>
+            </div>
+            <div class="skill-item">
+                <div class="bullet"></div>
+                <div class="skill-name">System Design</div>
+            </div>
+            <div class="skill-item">
+                <div class="bullet"></div>
+                <div class="skill-name">Version Control</div>
+            </div>
+        </div>
+    </div>  
+</section>
+<section class="myworks" id="myworks">
+    <div class="max-width">
+        <h5 class="title">Some Of My Projects</h5>
+        <div class="work-container">
+            <div class="work-card">
+                <div class="image-container">
+                    <img src="img-files/Website Preview.png" alt="Web1">
+                    <div class="work-name">Food Ordering Website</div>
+                </div>
+                <div class="work-readme">
+                    <p class="readme">
+                        A full-stack food delivery application built from scratch to demonstrate system design, RESTful API development, database management, and security best practices. Features location-based restaurant filtering, real-time cart management, and secure user authentication. <br>
+                        <br><span>Features</span><br>
+                        (i) User Authentication<br>
+                        (ii) Location-Based Filtering<br>
+                        (iii) Dynamic Menu System<br>
+                        (iv) Real-Time Cart Management<br>
+                        (v) Order Processing<br>
+                        (vi)Responsive Design<br>
+                        (vii) Session Persistence<br>
+                    </p>
+                </div>
+                <div class="links">
+                    <a href="https://github.com/sheikh-rabab/food-delivery-website" class="read-btn"><span>Learn More</span></a>
+                    <a href="https://github.com/sheikh-rabab/food-delivery-website" class="redirect-btn"><span>View Repository</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="contact" id="contact">
+        <div class="max-width">
+            <h4 class="title">Contact Me</h4>
+            <div class="cont-cont">
+                <div class="left-column">
+                    <div class="text">Get In Touch</div>
+                    <p>Feel free to reach out to me for any projects, collaborations, or just to say hello! I'm always open to discussing new opportunities and ideas.</p>
+                    <div class="icons">
+                        <div class="rows">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Sheikh Rabab</div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="info">
+                                <div class="head">Location</div>
+                                <div class="sub-title">Dhaka, Bangladesh</div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">
+                                    <a href="mailto:rababsheikh34@gmail.com">rababsheikh34@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-column">
+                    <div class="text">Message Me</div>
+                    <form action="https://formsubmit.co/rababsheikh34@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://yourusername.github.io/your-repo-name/#contact">
+                        <div class="fields">
+                            <div class="field">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                            <textarea name="message" placeholder="Message" required></textarea>
+                            <button type="submit" class="send-btn">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="max-width">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>© 2026 <span>Sheikh Rabab</span>. All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="l"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="G"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:rababsheikh34@gmail.com" aria-label="M"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="portweb.js"></script>
+</body>
+</html>
